@@ -1,0 +1,28 @@
+@font-face {
+
+	font-family: rockwell;
+	src:url(../fonts/Rockwell.ttf);
+
+	font-family: steiner;
+	src:url(../fonts/Steinerlight.ttf);
+
+	font-family: Asap-Bold;
+	src:url(../fonts/Asap-Bold.ttf);
+
+	font-family: Asap-Regular;
+	src:url(../fonts/Asap-Regular.ttf);
+
+	font-family: ubuntu;
+	src:url(../fonts/UbuntuMono-Regular.ttf);
+
+	font-family: infinity;
+	src:url(../fonts/Infinity.ttf);
+
+	font-family: Lobster;
+	src:url(../fonts/Lobster.ttf);
+
+
+
+
+
+}
