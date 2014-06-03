@@ -64,6 +64,8 @@
         </div>
         <!-- /.container -->
     </nav>
+
+    
 <section class="section-colored">
     <div class="container ">
 
@@ -123,6 +125,60 @@
 
       
 </section>
+
+<section>
+     <div class="container">
+         
+             <div class="well">
+                <div class="jumbotron">
+                    <h1>Ultimas noticias</h1>
+                        
+                    
+                    
+                    
+                </div>
+                 <div class="row">
+                 <div class="col-lg-6">
+                     <div class="panel panel-default">
+                        <div class="panel-heading text-center"><h3>Escuela de formación deportiva</h3></div>
+                        <div class="panel-body">Dirigido a jugadores:
+                            <ul>
+                                <li> 1º Turno:  Del 14/07 al 20/07.<p><b>Jugadores/as del 2000/1999/1998</b></li>
+                                <li>2º Turno: Del 28/07 al  03/08<p>
+                                <b>Jugadores/as del 1997/1996/1995</b></li>
+                                </ul>
+                                <button type="button" id="popover1" class="btn btn-default" data-container="body" data-toggle="mypopover1" data-placement="right" data-content="- Tríptico informativo. <p>Hoja de inscripción">Documentación.</button>
+                        </div>
+                        </div>
+                 </div>
+
+                 <div class="col-lg-6">
+                     <div class="panel panel-default">
+                        <div class="panel-heading text-center"><h3>Curso de verano "Formación de entrenadores"</h3></div>
+                        <div class="panel-body">Dirigido a entrenadores
+                            <ul>
+                                <li> <b>1º Curso: El Trabajo en la Base</b>
+                                    <p> del 14/07 al 20/07
+
+                                </li>
+                                <li><b>2º Curso: El Trabajo desde Junior</b><p>
+                                             del 28/07 al 03/08 </li>
+                                </ul>
+                                <button type="button" id="popover1" class="btn btn-default" data-container="body" data-toggle="mypopover1" data-placement="right" data-content="- Tríptico informativo. <p>Hoja de inscripción">Documentación.</button>
+
+
+
+
+                 
+             </div>
+         
+     </div>
+ </section>
+
+ 
+
+             
+
 <section>
     <div class="container">
         <div class="row">
@@ -217,10 +273,11 @@
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
-        $('.carousel').carousel()
-        
-    });
+        $(document).ready(function() {
+
+        $('.btn').popover();
+
+    }); //END $(document).ready()
         
     </script>
 
